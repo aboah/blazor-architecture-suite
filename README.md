@@ -7,37 +7,49 @@
 ## 🚀 Key Architectural Highlights
 
 - **Server-Side Interactivity (.NET 10+):** Optimized Blazor Server architecture leveraging SignalR circuits with memory-efficient state management.
-- **Enterprise UI Integration:** Integrated with **Syncfusion Blazor** components (including advanced Rich Text Editors and data grids) under a verified Community License.
-- **Robust Security & Authorization:** Policy-based resource authorization (`[Authorize(Policy = "TicketOwnerOrStaff")]`) ensuring strict tenant and row-level data isolation.
-- **Auditability & Logging:** Comprehensive system audit trails tracking state changes, reassignments, and role-based actions.
-- **Resilient Data Pipelines:** High-performance EF Core data access utilizing custom indexing strategies for sub-second query execution at scale.
+- **Enterprise Security & Architecture:** Policy-based resource authorization (`[Authorize(Policy = "TicketOwnerOrStaff")]`), strict tenant isolation, UML-driven design, and robust auditability.
+- **Microservices & Cross-Platform DevOps:** Containerized services built using .NET Core and Docker, fully optimized for multi-environment deployment across Linux (Ubuntu), macOS, and Windows.
+- **Resilient Data Pipelines:** High-performance database administration and optimized data access layers utilizing custom indexing, stored procedures, and triggers.
 
 ---
 
 ## 🧩 Flagship Module: Support Ticketing System
 
-The repository features a fully specified enterprise ticketing module modeled after high-availability hosting infrastructure:
+The repository features a fully specified enterprise ticketing module modeled after high-availability infrastructure:
 - **Triage & Filtering:** Dynamic status buckets (Open, In Progress, On Hold, Closed) with live count badges and advanced age-filtering.
 - **Threaded Communication:** Secure message rendering supporting multi-line technical logs and rich text inputs while maintaining strict XSS sanitization (`Ganss.Xss`).
-- **Workflow Automation:** Automated ticket ID generation (`{QueuePrefix}-{Dept}-{Sequence}`), role-based badges (Staff vs. User), and file attachment handling.
+- **Workflow Automation:** Automated ticket ID generation, role-based badges (Staff vs. User), and secure file attachment handling.
 
 ---
 
-## 🛠️ Tech Stack & Ecosystem
+## 🛠️ Comprehensive Tech Stack & Ecosystem
 
-- **Core Framework & Backend:** .NET 10+, C#, Blazor Server, Entity Framework Core (SQL / PostgreSQL / SQLite)
-- **Enterprise UI & Security:** Radzen Blazor Component Suite, HTML Sanitization (`Ganss.Xss`), Role-Based Access Control (RBAC)
-- **Data Engineering & Analytics:** DuckDB, MotherDuck, Databricks, Google BigQuery, Pandas, Marimo (Reactive Python Notebooks), Power BI, Power Pivot
-- **Enterprise Collaboration:** Microsoft SharePoint, Microsoft Teams
+### 💻 Backend, Architecture & Cloud
+- **Core Frameworks:** .NET 10+, C# (OOP/Structured Design), ASP.NET Core MVC, Blazor Server & WebAssembly
+- **Microservices & DevOps:** Docker Containers, Linux (Ubuntu) & macOS deployment, RESTful APIs, FastAPI
+- **Embedded Systems & Mobile:** IoT with Raspberry Pi (Microcontrollers), Cross-Platform Mobile Development (.NET MAUI)
+
+### 🗄️ Database Engineering & Administration
+- **Relational & Enterprise:** Microsoft SQL Server (Advanced Stored Procedures, Triggers, UDFs), PostgreSQL, MySQL, SQLite
+- **NoSQL & Embedded:** LiteDB, DuckDB, MotherDuck, Google BigQuery
+
+### 📊 Data Analytics, BI & Statistical Modeling
+- **Programming & Analysis:** Python (Pandas, Matplotlib, Seaborn, OOP), R, SPSS, Stata 11.0
+- **Visualization & Reporting:** Power BI, Power Pivot, Crystal Reports, Google Looker Studio
+- **Reactive Workflows:** Marimo (Reactive Python Notebooks)
+
+### 🌐 Frontend & Enterprise Tooling
+- **Web Technologies:** HTML5, CSS3, JavaScript, jQuery, Bootstrap 5
+- **Legacy & Office Integration:** VBA for MS Excel & MS Access, Microsoft SharePoint, Microsoft Teams
 
 ---
 
 ## 📂 Project Structure
 
-- `src/Core/` — Domain entities, business logic, and shared DTOs.
-- `src/Infrastructure/` — Database context, repositories, and background notification workers.
-- `src/Web/` — Blazor Server application, Razor components, pages, and DI configuration.
-- `docs/` — Functional and technical specifications.
+- `src/Core/` — Domain entities, business logic, UML-aligned models, and shared DTOs.
+- `src/Infrastructure/` — Database contexts, optimized SQL stored procedures, repositories, and workers.
+- `src/Web/` — Blazor Server application, interactive razor components, and DI configurations.
+- `docs/` — System workflow diagrams, functional, and technical specifications.
 
 ---
-*Architected and maintained as a showcase of clean code, scalability, modern enterprise .NET design patterns, and advanced data engineering workflows.*
+*Architected and maintained as a showcase of clean code, full-stack scalability, advanced data engineering workflows, and robust enterprise system design.*
