@@ -25,10 +25,10 @@ The repository features a fully specified enterprise ticketing module modeled af
 
 ## 🛠️ Tech Stack & Ecosystem
 
-- **Framework:** .NET 10+, C#, Blazor Server
-- **Data Access:** Entity Framework Core (SQL / PostgreSQL / SQLite)
-- **UI & Components:** Radzen Blazor Component Suite
-- **Security:** HTML Sanitization, Anti-XSS guards, Role-Based Access Control (RBAC)
+- **Core Framework & Backend:** .NET 10+, C#, Blazor Server, Entity Framework Core (SQL / PostgreSQL / SQLite)
+- **Enterprise UI & Security:** Radzen Blazor Component Suite, HTML Sanitization (`Ganss.Xss`), Role-Based Access Control (RBAC)
+- **Data Engineering & Analytics:** DuckDB, MotherDuck, Databricks, Google BigQuery, Pandas, Marimo (Reactive Python Notebooks), Power BI, Power Pivot
+- **Enterprise Collaboration:** Microsoft SharePoint, Microsoft Teams
 
 ---
 
@@ -40,4 +40,4 @@ The repository features a fully specified enterprise ticketing module modeled af
 - `docs/` — Functional and technical specifications.
 
 ---
-*Architected and maintained as a showcase of clean code, scalability, and modern enterprise .NET design patterns.*
+*Architected and maintained as a showcase of clean code, scalability, modern enterprise .NET design patterns, and advanced data engineering workflows.*
